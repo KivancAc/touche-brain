@@ -52,7 +52,7 @@ Every file has YAML frontmatter with a required `type`: `core`, `ethos`, `roadma
 Ask before writing borderline entries. Keep it noise-free.
 
 ## Git
-The brain is its own git repo. **Every brain update is committed immediately** from inside the brain folder, message `brain: <verb> <what>`. This is the only repo where Claude commits without asking. Pushing to a remote only with the owner's OK (a private remote only). Never commit secrets, tokens, or personal data of end users.
+The brain is its own git repo. **Every brain update is committed immediately** from inside the brain folder, message `brain: <verb> <what>`. This is the only repo where Claude commits without asking. Push every brain commit to its private remote (`origin`, set up 2026-11-14) right after committing. Never commit secrets, tokens, or personal data of end users.
 
 ## Read discipline
 **Tier 1 — at session start, one batched read:** `CLAUDE.md`, `core.md`, `ethos.md`, `roadmap.md`, `architecture.md`, all `gotchas/`, `people/`, `infrastructure/`, `decisions/`, and `threads/` with `status: active`.

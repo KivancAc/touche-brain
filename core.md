@@ -17,7 +17,6 @@ Entry point. Every session reads this first. One-line links only; detail lives i
 - Repo: spec `docs/spec.md` · status + known issues `docs/status.md` · decisions `docs/decisions/` · plans `docs/plans/`
 
 ## ⚠️ Pending follow-ups
-- 🔴 **high** — [[followups/merge-and-back-up-branches]] — no git remote; `main` 17 commits behind the working branch. Created 2026-11-14.
 - 🔴 **high** — [[followups/kvkk-legal-review]] — blocks storing any real user data, incl. the closed group. Created 2026-11-14.
 - 🟡 **medium** — [[followups/didit-vetting]] — data location, DPA, Turkish ID support, pricing. Created 2026-11-14.
 - 🟡 **medium** — [[followups/send-notification-sounds]] — owner never heard the six samples. Created 2026-11-14.
@@ -31,6 +30,7 @@ Entry point. Every session reads this first. One-line links only; detail lives i
 - [[gotchas/design-handoff-files]] — `.dc.html` needs the design runtime; export's CLAUDE.md → HANDOFF.md
 
 ## Infrastructure
+- [[infrastructure/github]] — private repos `KivancAc/touche` + `KivancAc/touche-brain`
 - [[infrastructure/services]] — planned services; no hosted environment confirmed yet
 
 ## People
