@@ -5,20 +5,21 @@ status: active
 started: 2026-11-14
 last_touched: 2026-11-14
 ---
-# Thread: building Touche
+# Thread: building Touche to the closed-group launch
 
 ## Goal
-TODO: what "launched" means for this project.
+100 verified members in Istanbul using the app through TestFlight / Play closed testing, all Premium (spec rule 11), with real data only after the KVKK review.
 
 ## Current state
-Project created from the claude-project-template on 2026-11-14. Stage 0 (Definition) in progress — see repo `docs/status.md`.
+Stage 1 (sign-up and onboarding) at 5/8. Database side of sign-up is done (members, access codes, Premium ledger, Visitor Pass, profiles, health; ~300 pgTAP tests). Mobile foundation done and boots in the iOS simulator. Working branch `stage1/1.4-mobile-foundation`; nothing merged past Stage 0 ([[followups/merge-and-back-up-branches]]).
 
 ## Next steps
-1. Fill in `docs/spec.md` with the owner.
-2. Link designs, choose the stack (architect review).
+1. Task 1.3 — verification Edge Functions (Didit, mock mode first).
+2. Task 1.5 — mobile sign-up screens TR/EN; 1.6 — log-in.
+3. Merge the branch stack, add a private remote.
 
 ## Blockers
-_(none)_
+None for building. Real users blocked by [[followups/kvkk-legal-review]].
 
 ## Files in flight
-_(none)_
+Repo `docs/plans/stage-1-signup.md`, `docs/status.md`.
