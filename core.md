@@ -12,7 +12,7 @@ Entry point. Every session reads this first. One-line links only; detail lives i
 - [[people/kivanc]] — product owner, beginner developer
 
 ## Product
-- [[roadmap]] — Stage 1 sign-up at 5/8; closed group of 100 in Istanbul next
+- [[roadmap]] — Stage 1 sign-up at 6/8; closed group of 100 in Istanbul next
 - [[architecture]] — Expo + Supabase EU + Next.js; rules live in Postgres
 - Repo: spec `docs/spec.md` · status + known issues `docs/status.md` · decisions `docs/decisions/` · plans `docs/plans/`
 
@@ -27,6 +27,7 @@ Entry point. Every session reads this first. One-line links only; detail lives i
 
 ## Gotchas
 - [[gotchas/hosted-supabase-deploy]] — never `config push`, never deploy the seed, never rotate `phone_hash_key`
+- [[gotchas/edge-functions-shared-import]] — functions need the import map; deploy only via `pnpm functions:deploy`
 - [[gotchas/design-handoff-files]] — `.dc.html` needs the design runtime; export's CLAUDE.md → HANDOFF.md
 
 ## Infrastructure
