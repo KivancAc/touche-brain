@@ -3,7 +3,7 @@ type: thread
 name: main
 status: active
 started: 2026-11-14
-last_touched: 2026-11-14
+last_touched: 2026-11-15
 ---
 # Thread: building Touche to the closed-group launch
 
@@ -15,7 +15,7 @@ Stage 1 (sign-up and onboarding) at 6/8. Task 1.3 verification done (583 pgTAP, 
 
 ## Next steps
 1. Owner answers the 11 batched questions (see [[sessions/2026-11-14-task-1-5-signup-screens]]): e2e method, Android, main fast-forward + push.
-2. Task 1.5 — built and reviewed on local `stage1/1.5-signup-screens`; remaining: member-screen e2e in simulator, Android check, test-writer, plan/status. Then 1.6 — log-in.
+2. Task 1.5 — built, reviewed, tested (247 mobile / 106 shared), status updated; branch `stage1/1.5-signup-screens` pushed (8356d94). Remaining: member-screen e2e (Maestro or owner's manual list; computer use isn't available in the VS Code session) and Android check. Then 1.6 — log-in.
 
 ## Blockers
 None for building. Real users blocked by [[followups/kvkk-legal-review]].
