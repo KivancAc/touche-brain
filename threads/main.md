@@ -15,7 +15,8 @@ Stage 1 (sign-up and onboarding) at 6/8. Task 1.3 verification done (583 pgTAP, 
 
 ## Next steps
 1. Arda (project manager from 2026-11-15, [[people/arda]]) answers [[followups/questions-for-arda]]: e2e method, Android, main merge, defaults.
-2. Task 1.5 — built, reviewed, tested (247 mobile / 106 shared), status updated; branch `stage1/1.5-signup-screens` pushed (8356d94). Remaining: member-screen e2e (Maestro or owner's manual list; computer use isn't available in the VS Code session) and Android check. Then 1.6 — log-in.
+2. Task 1.6 (log-in) — built while waiting for Arda: reviewed (architect, code-reviewer, security, test-writer), 290 mobile / 652 pgTAP / both smoke scripts green; branch `stage1/1.6-login` (28d0773) LOCAL ONLY, based on the unmerged 1.5 branch. Remaining: simulator check (needs A2) and Android (A3). Push when the owner says so.
+3. Task 1.5 — built, reviewed, tested (247 mobile / 106 shared), status updated; branch `stage1/1.5-signup-screens` pushed (8356d94). Remaining: member-screen e2e (Maestro or owner's manual list; computer use isn't available in the VS Code session) and Android check.
 
 ## Blockers
 None for building. Real users blocked by [[followups/kvkk-legal-review]].
