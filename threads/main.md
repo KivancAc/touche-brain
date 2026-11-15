@@ -14,11 +14,11 @@ last_touched: 2026-11-14
 Stage 1 (sign-up and onboarding) at 6/8. Task 1.3 verification done (583 pgTAP, 76 Deno, integration 26/26) on `stage1/1.3-verification`, pushed; main still 3dfbc04 — owner's OK pending for the fast-forward. Database side of sign-up is done (members, access codes, Premium ledger, Visitor Pass, profiles, health; ~300 pgTAP tests). Mobile foundation done and boots in the iOS simulator. `main` = `stage1/1.4-mobile-foundation` (fast-forwarded 2026-11-14), backed up to private GitHub `KivancAc/touche`.
 
 ## Next steps
-1. Owner OK → fast-forward main to `stage1/1.3-verification` and push.
-2. Task 1.5 — mobile sign-up screens TR/EN (plan → architect → build); 1.6 — log-in.
+1. Owner answers the 11 batched questions (see [[sessions/2026-11-14-task-1-5-signup-screens]]): e2e method, Android, main fast-forward + push.
+2. Task 1.5 — built and reviewed on local `stage1/1.5-signup-screens`; remaining: member-screen e2e in simulator, Android check, test-writer, plan/status. Then 1.6 — log-in.
 
 ## Blockers
 None for building. Real users blocked by [[followups/kvkk-legal-review]].
 
 ## Files in flight
-Repo `docs/plans/stage-1-signup.md`, `docs/status.md`.
+Repo `docs/plans/task-1.5-signup-screens.md`, `docs/status.md`, `apps/mobile/src/`.
