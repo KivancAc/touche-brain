@@ -1,0 +1,12 @@
+---
+type: followup
+created: 2026-11-15
+priority: high
+status: pending
+owner: arda
+source: session 2026-11-15; repo docs/status.md (Known issues), docs/spec.md (Open decisions)
+---
+# First batch of open questions for Arda
+
+All open project questions collected for Arda (new project manager), in a document Kivanç forwards. Groups: (A) to finish Task 1.5 — simulator e2e method, Android device, merge Task 1.3 into main; (B) sign-up defaults to confirm — hidden free/Premium copy, no WhatsApp code, default country, visitor and profile privacy defaults incl. Rainbow show_gender, neutral verification copy; (C) before real users — KVKK review, legal pages, Didit vetting/account, SMS provider; (D) before later features — bracketed values, config starting values, AI agents scope, admin screen count, notification sound.
+Record each answer in the repo (`docs/spec.md` / `docs/status.md` / decisions) and close this follow-up when all are answered. Overlaps [[followups/open-product-decisions]], [[followups/kvkk-legal-review]], [[followups/didit-vetting]], [[followups/send-notification-sounds]].

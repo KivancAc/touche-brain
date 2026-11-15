@@ -1,6 +1,6 @@
 ---
 type: core
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 # Touche Brain — Core
 
@@ -10,6 +10,7 @@ Entry point. Every session reads this first. One-line links only; detail lives i
 - [[ethos]] — Kivanç's rules: Opus codes / Fable reviews, ask before outward actions, never invent bracketed values, privacy first
 - [[CLAUDE]] — how this brain works (brain vs repo: what goes where)
 - [[people/kivanc]] — product owner, beginner developer
+- [[people/arda]] — project manager from 2026-11-15; open questions go to Arda
 
 ## Product
 - [[roadmap]] — Stage 1 sign-up at 6/8; closed group of 100 in Istanbul next
@@ -17,6 +18,7 @@ Entry point. Every session reads this first. One-line links only; detail lives i
 - Repo: spec `docs/spec.md` · status + known issues `docs/status.md` · decisions `docs/decisions/` · plans `docs/plans/`
 
 ## ⚠️ Pending follow-ups
+- 🔴 **high** — [[followups/questions-for-arda]] — all open questions batched for Arda (task 1.5 finish, defaults, pre-launch, later features). Created 2026-11-15.
 - 🔴 **high** — [[followups/kvkk-legal-review]] — blocks storing any real user data, incl. the closed group. Created 2026-11-14.
 - 🟡 **medium** — [[followups/didit-vetting]] — data location, DPA, Turkish ID support, pricing. Created 2026-11-14.
 - 🟡 **medium** — [[followups/send-notification-sounds]] — owner never heard the six samples. Created 2026-11-14.
@@ -36,3 +38,4 @@ Entry point. Every session reads this first. One-line links only; detail lives i
 
 ## People
 - [[people/kivanc]]
+- [[people/arda]]

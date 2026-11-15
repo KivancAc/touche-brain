@@ -14,7 +14,7 @@ last_touched: 2026-11-15
 Stage 1 (sign-up and onboarding) at 6/8. Task 1.3 verification done (583 pgTAP, 76 Deno, integration 26/26) on `stage1/1.3-verification`, pushed; main still 3dfbc04 — owner's OK pending for the fast-forward. Database side of sign-up is done (members, access codes, Premium ledger, Visitor Pass, profiles, health; ~300 pgTAP tests). Mobile foundation done and boots in the iOS simulator. `main` = `stage1/1.4-mobile-foundation` (fast-forwarded 2026-11-14), backed up to private GitHub `KivancAc/touche`.
 
 ## Next steps
-1. Owner answers the 11 batched questions (see [[sessions/2026-11-14-task-1-5-signup-screens]]): e2e method, Android, main fast-forward + push.
+1. Arda (project manager from 2026-11-15, [[people/arda]]) answers [[followups/questions-for-arda]]: e2e method, Android, main merge, defaults.
 2. Task 1.5 — built, reviewed, tested (247 mobile / 106 shared), status updated; branch `stage1/1.5-signup-screens` pushed (8356d94). Remaining: member-screen e2e (Maestro or owner's manual list; computer use isn't available in the VS Code session) and Android check. Then 1.6 — log-in.
 
 ## Blockers
