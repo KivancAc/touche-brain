@@ -14,6 +14,7 @@ last_touched: 2026-11-15
 Stage 1 (sign-up and onboarding) at 6/8. Task 1.3 verification done (583 pgTAP, 76 Deno, integration 26/26) on `stage1/1.3-verification`, pushed; main still 3dfbc04 — owner's OK pending for the fast-forward. Database side of sign-up is done (members, access codes, Premium ledger, Visitor Pass, profiles, health; ~300 pgTAP tests). Mobile foundation done and boots in the iOS simulator. `main` = `stage1/1.4-mobile-foundation` (fast-forwarded 2026-11-14), backed up to private GitHub `KivancAc/touche`.
 
 ## Next steps
+0. Parallel tracks while Arda answers: admin foundation next is A0.2 (e-mail sign-in without breaking phone sign-up, MFA, invitations, audit anchor); website next is W0.2 (home + install pop-up). All branches pushed 2026-11-15.
 1. Arda (project manager from 2026-11-15, [[people/arda]]) answers [[followups/questions-for-arda]]: e2e method, Android, main merge, defaults.
 2. Task 1.6 (log-in) — built while waiting for Arda: reviewed (architect, code-reviewer, security, test-writer), 290 mobile / 652 pgTAP / both smoke scripts green; branch `stage1/1.6-login` (28d0773) LOCAL ONLY, based on the unmerged 1.5 branch. Remaining: simulator check (needs A2) and Android (A3). Push when the owner says so.
 3. Stage 2 plan (core member app) written and architect-approved with 15 changes applied: repo `docs/plans/stage-2-core-app.md` on branch `stage2/core-plan` (local). No code until the owner OKs it and Stage 1 branches are merged; needs Arda section E answers.
